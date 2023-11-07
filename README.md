@@ -4,7 +4,7 @@ This project highlights the following technical skills:
 * Data Preprocessing: Scaling Data
 * Unsupervised Machine Learning: K-means
 * Dimensionality Reduction: Principal Component Analysis
-* Data Analysis and Interpetation
+* Data Analysis and Interpretation
 * Data Visualization
 
 ## Objective
@@ -30,4 +30,18 @@ The data provided included the price changes at the following time intervals:
 * SK Learn: Standard Scalar, Kmeans, and PCA
 
 ## Results
+The elbow curve showed that the optimum number of clusters for this dataset is 4. The elbow curves were identical before and after PCA. 
+<img width="698" alt="Screenshot 2023-11-07 at 2 03 52 PM" src="https://github.com/hrollin5/CryptoClustering/assets/130103105/332d6413-0fd6-4b37-844d-bcefd691cac3">
+
+Before PCA, the cluster were not very distinct. 
+<img width="702" alt="Screenshot 2023-11-07 at 2 04 03 PM" src="https://github.com/hrollin5/CryptoClustering/assets/130103105/f83ab8b0-2f9e-4c5b-a0e9-e7f07cee8c1c">
+
+After PCA, the clusters were much more separated and distinct.
+<img width="665" alt="Screenshot 2023-11-07 at 2 04 11 PM" src="https://github.com/hrollin5/CryptoClustering/assets/130103105/a37a55b2-3b06-4f7e-8f32-e018618f984d">
+
+
+
+  * **Question:** After visually analyzing the cluster analysis results, what is the impact of using fewer features to cluster the data using K-Means?
+
+  * **Answer:** The elbow curves were identical. The clusters are tighter when using fewer features in the principal component analysis, as it combines all the features of the original data into just three features. We are able to see the differences between the points more easily. 
 
